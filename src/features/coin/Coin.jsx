@@ -2,7 +2,7 @@ import { useSelector } from "react-redux"
 import React from 'react'
 
 function Coin() {
-  const coin = useSelector((state) => state.counter.count)
+  const coin = useSelector((state) => state.counters.count)
   const themeTextColor = useSelector((state) => state.theme.color)
   console.log("viral")
   console.log("themeTextColor",themeTextColor);

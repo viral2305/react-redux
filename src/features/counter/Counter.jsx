@@ -3,7 +3,8 @@ import {decrement, increment, incrementByAmount} from './counterSlice'
 
 
 function Counter() {
-    const count = useSelector((state) => state.counter.count);
+    const count = useSelector((state) => state.counters.count);
+    console.log(count)
     const themeTextColor = useSelector((state) => state.theme.color)
     const dispatch = useDispatch()
     
