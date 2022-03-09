@@ -4,6 +4,7 @@ import React from 'react'
 function Coin() {
   const coin = useSelector((state) => state.counter.count)
   const themeTextColor = useSelector((state) => state.theme.color)
+  console.log("viral")
   console.log("themeTextColor",themeTextColor);
   return (
     <div>
